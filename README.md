@@ -1,4 +1,4 @@
-# ideal-pancake
+# pos-tagger
 
 This project is a pos-tagger.
 It determines the part of speech of each token of a given text.
