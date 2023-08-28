@@ -14,10 +14,7 @@ The data files consist in a list of sentences. Each sentence is a list of words,
 
 The data is in french.
 
-For classifying each word, the features are :
-- first letter is uppercase
-- whole word is uppercase
+For classifying each word, the main features are the word itself + surrounding words in a window of 2 (left and right, total words = 5) and suffixes.
 
-The classification also includes surrounding words in a window of 2 (left and right, total words = 5) and suffixes.
 Features can be found in file test_features.py , function get_features .
 
