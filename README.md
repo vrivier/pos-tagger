@@ -8,6 +8,8 @@ The core algorithm is called perceptron. It is the first neural network ever des
 It needs a learning corpus with parts of speech already assigned.
 
 - - - - - - - - - - - - - - - - 
+<b> To run it : </b> simply execute test_features.py. The execution will give you as output the percentage of correct predictions on the test dataset. 
+- - - - - - - - - - - - - - - - 
 
 The data files consist in a list of sentences. Each sentence is a list of words, and comes with a list of the corresponding tags. Here is the first sentence of the corpus as an example :
 [['Les', 'commotions', 'cérébrales', 'sont', 'devenu', 'si', 'courantes', 'dans', 'ce', 'sport', "qu'", 'on', 'les', 'considére', 'presque', 'comme', 'la', 'routine', '.'], ['DET', 'NOUN', 'ADJ', 'AUX', 'VERB', 'ADV', 'ADJ', 'ADP', 'DET', 'NOUN', 'SCONJ', 'PRON', 'PRON', 'VERB', 'ADV', 'ADV', 'DET', 'NOUN', 'PUNCT']]
