@@ -1,5 +1,5 @@
 import json
-import perceptron_dic as pdic
+import perceptron_dict as pdict
 
 
 def get_features(sentence, word_idx):
@@ -46,7 +46,7 @@ train, dev, test = [json.loads(open("pos.fr.ud13.{}.json".format(corpus)).read()
 train, dev, test = [prepare(x) for x in [train, dev, test]]
 
 
-p = pdic.Perceptron(train[0], train[1])
+p = pdict.Perceptron(train[0], train[1])
 p.train()
 score = p.evaluate(test[0], test[1])
 print(score)
